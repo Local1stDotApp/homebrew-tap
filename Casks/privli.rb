@@ -1,6 +1,6 @@
 cask "privli" do
-  version "2.6.0"
-  sha256 "f7432600054274782ec0cbb6b2356962772b876bab13b3fd522fa8b7e53155d9"
+  version "3.0.0"
+  sha256 "d72a67d7201d6bcd9ed95ab440a0e7721bc3bf3c6362d81f7a472ca3dad597cd"
 
   url "https://github.com/Local1stDotApp/paste_share_open_source/releases/download/latest/Privli-#{version}-macos-universal.dmg",
       verified: "github.com/Local1stDotApp/paste_share_open_source/"
