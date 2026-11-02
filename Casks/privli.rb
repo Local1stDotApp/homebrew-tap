@@ -1,6 +1,6 @@
 cask "privli" do
-  version "3.0.0"
-  sha256 "d72a67d7201d6bcd9ed95ab440a0e7721bc3bf3c6362d81f7a472ca3dad597cd"
+  version "3.1.1"
+  sha256 "fda1f93d7eca3ee89788757ca6b28d530898c869be4e3871a8f46306e270854f"
 
   url "https://github.com/Local1stDotApp/paste_share_open_source/releases/download/latest/Privli-#{version}-macos-universal.dmg",
       verified: "github.com/Local1stDotApp/paste_share_open_source/"
@@ -9,7 +9,8 @@ cask "privli" do
   homepage "https://local1st.app/"
 
   auto_updates false
-  depends_on macos: ">= :catalina"
+  # Must track the app's macOS deployment target (apps/apple/project.yml).
+  depends_on macos: ">= :monterey"
 
   app "Privli.app"
 
